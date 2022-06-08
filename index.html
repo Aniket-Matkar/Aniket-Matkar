@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Matkar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/Aniket Portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+    <!-- navigation bar  -->
+    <nav id="navbar">
+        <div class="logo">
+            <img src="/img/facelogo.png" alt="getpet">
+        </div>
+        <div class="navleftitems">
+            <ul>
+                <li class="item1"><a href="#intro">Home</a></li>
+                <li class="item1"><a href="#h2">Education</a></li>
+                <li class="item1"><a href="#breed">Projects</a></li>
+                <li class="item1"><a href="#">Skills</a></li>
+                <li class="item1"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- <div class="navrightitem">
+            <ul>
+                <li class="item2"><a href="#">LogIn</a></li>
+            </ul>
+        </div> -->
+    </nav>
+    
+    <!-- home  -->
+    <section id="intro">
+        <img src="../img/banner.jpg" alt="">
+        <h1>Hi, I am  Aniket Matkar. A Computer Engineer.</h1>
+        <p id="firstpara">I'm a Web Developer, I love to create beautiful and functional websites.</p>
+        <P id="secondpara">I love to code and learn about different techs.</P>
+        <div class="btn">
+            <button><a href="#">Download CV</a></button>
+        </div>
+    </section>
+    <div id="h2">
+        <div><h2 id="eduheading">Education </h2></div>
+        <div><img id="edulogo" src="/logo/edulogo.png" alt="" srcset="" height=""></div>
+    </div>
+    <!-- pets  -->
+    <section id="sale_box">
+        <div class="sbox">
+            <div class="sboximg"><img src="/img/kv.jpg" alt=""></div>
+            <div class="sboxp">Board: CBSE</div>
+            <div class="sboxp"><b>10th</b> CGPA: 8.8</div>
+            <div class="sboxbtn"><button>View Marksheet</button></div>
+        </div>
+        <div class="sbox">
+            <div class="sboximg"><img src="/img/kv12.jpg" alt=""></div>
+            <div class="sboxp">Board: CBSE</div>
+            <div class="sboxp"> <b>12th</b> Percentage: 67%</div>
+            <div class="sboxbtn"><button>View Marksheet</button></div>
+        </div>
+        <div class="sbox">
+            <div class="sboximg"><img src="/img/pvpit.jpeg" alt=""></div>
+            <div class="sboxp">University: Pune</div>
+            <div class="sboxp"> <b>Enginering</b> Agg SBPA: </div>
+            <div class="sboxbtn"><button>View Marksheet</button></div>
+        </div>
+    </section><br>
+    <hr>
+   
+    <!------------------ contact us --------------------->
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Your details are safe with us and will not be shared with any other party</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"> <img src="/logo/addlogo.png"> </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Ghat no. 4 Somatne Phata,<br>Pune, Maharashtra <br>10040</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><img src="/logo/phonelogo.png"></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>152-658-9541</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><img src="/logo/maillogo.png"></div>
+                    <div class="text">
+                        <h3>email</h3>
+                        <p>aniketmatkar628@gmial.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="/php/mail.php" method="post">
+                    <h2>Send Message :</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                    
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                       <input type="submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
